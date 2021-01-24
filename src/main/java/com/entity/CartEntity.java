@@ -7,7 +7,6 @@ public class CartEntity {
 	private int quantity;
 	public CartEntity() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public CartEntity(int productId, String productName, double price, int quantity) {
 		super();
