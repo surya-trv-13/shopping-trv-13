@@ -9,6 +9,8 @@
     <title>${title}</title>
   </head>
   <body>
-    <h1></h1>
+  	<div class="container">
+  		<%@include file="navbar.jsp" %>
+  	</div>
   </body>
 </html>
