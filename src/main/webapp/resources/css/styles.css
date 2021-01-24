@@ -1,7 +1,36 @@
 @charset "ISO-8859-1";
-
+::-webkit-scrollbar {
+  width: 0vw;
+}
+::-webkit-scrollbar-track {
+  background: #817c50;
+}
+::-webkit-scrollbar-thumb {
+  background: #fc7500;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fc7500;
+}
 body {
 	/* background-image: url('../image/background.jpg'); */
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
+}
+.banner {
+	background-image: url('../image/navback.jpg');
+	background-size: 100vw 90.2vh;
+	background-repeat: no-repeat;
+	height: 90.2vh;
+}
+.offer-box{
+	position: absolute;
+	border: 1px solid #ffffff;
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	height: 40vh;
+	width: 30vw;
+	right: 5vw;
+	top: 30vh;
 }

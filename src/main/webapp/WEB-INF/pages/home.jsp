@@ -9,8 +9,17 @@
     <title>${title}</title>
   </head>
   <body>
-  	<div class="container">
+  	<div class="">
   		<%@include file="navbar.jsp" %>
+  		<div class="banner">
+  			<div class="offer-box">
+  				<div>
+  					<h1 class="text-center">50% OFF</h1>
+  					<button class="align-middle">New Deals</button>
+  				</div>
+  			</div>
+  		</div>
+  		Surya
   	</div>
   </body>
 </html>
