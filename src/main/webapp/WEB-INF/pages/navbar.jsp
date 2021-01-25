@@ -1,6 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-success">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page isELIgnored="false"%>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FEC431;">
   <a class="navbar-brand" href="/shopping-trv-13/home.do">
-  Shopping Store</a>
+  	<img src="<c:url value='/resources/image/shop.png'/>" width="70" height="60"/>
+  	Shopping Store
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

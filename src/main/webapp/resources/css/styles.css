@@ -24,13 +24,13 @@ body {
 }
 .offer-box{
 	position: absolute;
-	border: 1px solid #ffffff;
+	border: 0.5rem solid #ffffff;
 	display: flex; 
 	align-items: center;
 	justify-content: center;
 	flex-flow: row wrap;
-	height: 40vh;
-	width: 30vw;
+	height: 50vh;
+	width: 35vw;
 	right: 5vw;
 	top: 30vh;
 }

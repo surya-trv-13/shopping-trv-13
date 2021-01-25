@@ -14,8 +14,11 @@
   		<div class="banner">
   			<div class="offer-box">
   				<div>
-  					<h1 class="text-center">50% OFF</h1>
-  					<button class="align-middle">New Deals</button>
+  					<h2 class="text-center text-capitalize text-white display-2">FLAT</h2>
+  					<h1 class="text-center text-white display-1">50% OFF</h1>
+  					<h4 class="text-center text-capitalize text-white display-5">
+  						On your first purchase
+  					</h4>
   				</div>
   			</div>
   		</div>
