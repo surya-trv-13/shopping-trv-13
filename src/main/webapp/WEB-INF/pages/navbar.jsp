@@ -26,7 +26,7 @@
           <a class="dropdown-item" href="#">About Us</a>
           <a class="dropdown-item" href="#">Support</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Login</a>
         </div>
       </li>
     </ul>
