@@ -1,14 +1,14 @@
 package com.entity;
 
-public class CartEntity {
+public class Cart {
 	private int productId;
 	private String productName;
 	private double price;
 	private int quantity;
-	public CartEntity() {
+	public Cart() {
 		super();
 	}
-	public CartEntity(int productId, String productName, double price, int quantity) {
+	public Cart(int productId, String productName, double price, int quantity) {
 		super();
 		this.productId = productId;
 		this.productName = productName;
