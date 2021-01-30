@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping package="com.entity">
+    	<class name="Product" table="product">
+    		<id name="productId" column="product_id" type="int">
+    			<generator class="native"></generator>
+    		</id>
+    		<property name="productName" column="prod_name" type="string" />
+    		<property name="productDesc" column="prod_desc" type="string" />
+    		<property name="price" column="price" type="double" />
+    		<property name="availability" column="available" type="boolean" />
+    		<!-- Many to One -->
+    	</class>
+    </hibernate-mapping>
