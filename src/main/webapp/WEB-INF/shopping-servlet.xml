@@ -49,7 +49,16 @@
 		<property name="mappingResources">
 			<list>
 				<value>
-					com/entity/CartEntity.hbm.xml
+					com/entity/Cart.hbm.xml
+				</value>
+				<value>
+					com/entity/Category.hbm.xml
+				</value>
+				<value>
+					com/entity/Product.hbm.xml
+				</value>
+				<value>
+					com/entity/User.hbm.xml
 				</value>
 			</list>
 		</property>
@@ -69,4 +78,5 @@
 		class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" />
 
 	<bean class="com.controller.HomeController" />
+	<bean class="com.controller.RegisterController" />
 </beans>
