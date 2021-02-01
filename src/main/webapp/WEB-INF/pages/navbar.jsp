@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false"%>
 
-<nav class="navbar navbar-expand-lg navbar-light custom-bg">
+<nav class="navbar navbar-expand-lg custom-bg">
   <a class="navbar-brand" href="/shopping-trv-13/home.do">
   	<img src="<c:url value='/resources/image/shop.png'/>" width="70" height="60"/>
   	Shopping Store
