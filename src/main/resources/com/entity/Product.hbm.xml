@@ -11,6 +11,7 @@
     		<property name="productDesc" column="prod_desc" type="string" />
     		<property name="price" column="price" type="double" />
     		<property name="availability" column="available" type="boolean" />
+    		<property name="image" column="product_image" type="blob" />
     		<!-- Many to One -->
     	</class>
     </hibernate-mapping>

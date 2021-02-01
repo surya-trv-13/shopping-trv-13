@@ -1,22 +1,26 @@
 package com.entity;
 
+import java.sql.Blob;
+
 public class Product {
 	private int productId;
 	private String productName;
 	private String productDesc;
 	private double price;
 	private boolean availability;
+	private Blob image;
 	public Product() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Product(int productId, String productName, String productDesc, double price, boolean availability) {
+	public Product(int productId, String productName, String productDesc, double price, boolean availability, Blob image) {
 		super();
 		this.productId = productId;
 		this.productName = productName;
 		this.productDesc = productDesc;
 		this.price = price;
 		this.availability = availability;
+		this.image = image;
 	}
 	public int getProductId() {
 		return productId;
@@ -47,5 +51,11 @@ public class Product {
 	}
 	public void setAvailability(boolean availability) {
 		this.availability = availability;
+	}
+	public Blob getImage() {
+		return image;
+	}
+	public void setImage(Blob image) {
+		this.image = image;
 	}
 }
