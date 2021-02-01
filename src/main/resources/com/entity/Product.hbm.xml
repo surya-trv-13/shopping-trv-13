@@ -8,7 +8,9 @@
     			<generator class="native"></generator>
     		</id>
     		<property name="productName" column="prod_name" type="string" />
-    		<property name="productDesc" column="prod_desc" type="string" />
+    		<property name="productDesc" type="string">
+    			<column name="prod_desc" length="100"/>
+    		</property>
     		<property name="price" column="price" type="double" />
     		<property name="availability" column="available" type="boolean" />
     		<property name="image" column="product_image" type="blob" />
