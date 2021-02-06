@@ -40,7 +40,7 @@
 				<div class="form-group">
 					<label for="exampleInputPassword1">Re-Enter Password</label> <input
 						type="password" class="form-control" id="exampleInputPassword1"
-						placeholder="Re-Enter password">
+						placeholder="Re-enter password">
 				</div>
 				<button type="submit" class="btn btn-success">Submit</button>
 			</form>
