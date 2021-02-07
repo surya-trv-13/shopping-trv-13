@@ -21,6 +21,11 @@
 					<textarea id="inputAddress" class="form-control textarea"></textarea>
 				</div>
 				<div class="form-group">
+					<label for="exampleInputPassword1">Phone</label> <input
+						type="tel" class="form-control" id="phoneNumber"
+						placeholder="Enter your phone.">
+				</div>
+				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label> 
 					<input
 						type="email" 
@@ -40,7 +45,7 @@
 				<div class="form-group">
 					<label for="exampleInputPassword1">Re-Enter Password</label> <input
 						type="password" class="form-control" id="exampleInputPassword1"
-						placeholder="Re-enter password">
+						placeholder="Enter again...">
 				</div>
 				<button type="submit" class="btn btn-success">Submit</button>
 			</form>
